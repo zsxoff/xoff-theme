@@ -1,0 +1,59 @@
+---
+minimum_prek_version: "0.3.0"
+
+pypi_index: &pypi_index "--index-url=https://pypi.org/simple"
+
+default_install_hook_types:
+  - pre-commit
+  - pre-push
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-illegal-windows-names
+
+      - id: check-added-large-files
+        additional_dependencies: [*pypi_index]
+
+      - id: check-case-conflict
+        additional_dependencies: [*pypi_index]
+
+      - id: check-executables-have-shebangs
+        additional_dependencies: [*pypi_index]
+
+      - id: check-json
+        additional_dependencies: [*pypi_index]
+
+      - id: check-symlinks
+        additional_dependencies: [*pypi_index]
+
+      - id: check-toml
+        additional_dependencies: [*pypi_index]
+
+      - id: check-yaml
+        additional_dependencies: [*pypi_index]
+
+      - id: destroyed-symlinks
+        additional_dependencies: [*pypi_index]
+
+      - id: detect-private-key
+        additional_dependencies: [*pypi_index]
+
+      - id: end-of-file-fixer
+        additional_dependencies: [*pypi_index]
+
+      - id: mixed-line-ending
+        additional_dependencies: [*pypi_index]
+
+      - id: trailing-whitespace
+        additional_dependencies: [*pypi_index]
+
+  - repo: https://github.com/tombi-toml/tombi-pre-commit
+    rev: v0.9.3
+    hooks:
+      - id: tombi-format
+        additional_dependencies: [*pypi_index]
+
+      - id: tombi-lint
+        additional_dependencies: [*pypi_index]
