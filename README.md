@@ -2,6 +2,14 @@
 
 Contrasting theme for the terminal with a black background (WCAG AA / AAA).
 
+## Supported themes
+
+| Software                                            | Theme                                    |
+| :-------------------------------------------------- | :--------------------------------------- |
+| [Alacritty](https://github.com/alacritty/alacritty) | [packages/alacritty](packages/alacritty) |
+| [foot](https://codeberg.org/dnkl/foot)              | [packages/foot](packages/foot)           |
+| [kitty](https://github.com/kovidgoyal/kitty)        | [packages/foot](packages/kitty)          |
+
 ## Tools used
 
 - [prek](https://github.com/j178/prek) - ⚡ Better `pre-commit`, re-engineered in Rust.
