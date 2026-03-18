@@ -8,7 +8,7 @@ Contrasting theme for the terminal with a black background (WCAG AA / AAA).
 | :-------------------------------------------------- | :--------------------------------------- |
 | [Alacritty](https://github.com/alacritty/alacritty) | [packages/alacritty](packages/alacritty) |
 | [foot](https://codeberg.org/dnkl/foot)              | [packages/foot](packages/foot)           |
-| [kitty](https://github.com/kovidgoyal/kitty)        | [packages/foot](packages/kitty)          |
+| [kitty](https://github.com/kovidgoyal/kitty)        | [packages/kitty](packages/kitty)         |
 
 ## Tools used
 
