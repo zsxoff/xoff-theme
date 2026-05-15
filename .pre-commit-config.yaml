@@ -50,7 +50,7 @@ repos:
         additional_dependencies: [*pypi_index]
 
   - repo: https://github.com/tombi-toml/tombi-pre-commit
-    rev: v0.9.3
+    rev: v0.11.3
     hooks:
       - id: tombi-format
         additional_dependencies: [*pypi_index]
